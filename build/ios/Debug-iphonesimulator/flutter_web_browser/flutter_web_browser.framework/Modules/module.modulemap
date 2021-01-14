@@ -1,0 +1,6 @@
+framework module flutter_web_browser {
+  umbrella header "flutter_web_browser-umbrella.h"
+
+  export *
+  module * { export * }
+}
