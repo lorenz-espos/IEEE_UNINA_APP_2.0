@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lorenzo/AndroidStudioProjects/Versione 2.0/build/url_launcher/intermediates/res/merged/debug/values-pa/values-pa.xml",
+            "outputFile": "/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
             "map": [
                 {
                     "source": "/Users/lorenzo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/values-pa/values-pa.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/Users/lorenzo/AndroidStudioProjects/Versione 2.0/build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
+            "outputFile": "/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/url_launcher/intermediates/res/merged/debug/values-pa/values-pa.xml",
             "map": [
                 {
                     "source": "/Users/lorenzo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/values-pa/values-pa.xml",

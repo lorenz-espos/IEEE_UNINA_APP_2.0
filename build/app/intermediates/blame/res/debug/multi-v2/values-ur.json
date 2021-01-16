@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lorenzo/AndroidStudioProjects/Versione 2.0/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
+            "outputFile": "/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
             "map": [
                 {
                     "source": "/Users/lorenzo/.gradle/caches/transforms-2/files-2.1/84bd3266e257a6ed6137b67f2b6129c6/browser-1.2.0/res/values-ur/values-ur.xml",

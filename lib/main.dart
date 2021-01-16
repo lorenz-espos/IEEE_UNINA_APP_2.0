@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
 import 'link.dart';
 import 'package:flutter/material.dart';
 
@@ -173,7 +172,10 @@ class MyHomePage extends StatelessWidget {
                 // Update the state of the app
                 // ...
                 // Then close the drawer
-                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Sviluppatori()),
+                );
               },
             ),
           ],
@@ -182,5 +184,45 @@ class MyHomePage extends StatelessWidget {
 
     );
 
+  }
+}
+
+
+
+class Sviluppatori extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        iconTheme: IconThemeData(color: Colors.black),
+        elevation:0,
+        title: Text("Sviluppatori",
+        style:TextStyle(color:Colors.black),
+        ),
+        leading: IconButton(
+          icon: Icon(CupertinoIcons.back),
+          onPressed: (){
+            Navigator.pop(context);
+          },
+        ),
+      ),
+      body: Center(
+
+   child: ListView(
+       children: <Widget>[
+    Container(
+      child:Column(
+       children: <Widget>[
+         Text('Lorenzo Esposito'),
+      Image.asset('images/Lorenzo.jpg'),
+         Text('Email:spe.lor@virgilio.it'),
+        ],
+    ),
+    ),
+    ],),
+        
+      ),
+    );
   }
 }
