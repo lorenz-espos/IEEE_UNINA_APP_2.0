@@ -61,8 +61,15 @@ Future<void> event() async {
 void web() async {
   await FlutterWebBrowser.openWebPage(url: "https://edu.ieee.org/it-unina/it/home-2/");
 }
-/*Future<void> help() async {
-  var url = 'https://edu.ieee.org/it-unina/it/chi-siamo/';
+
+
+
+void help() async {
+  await FlutterWebBrowser.openWebPage(url: "https://edu.ieee.org/it-unina/it/infoieee/");
+}
+
+void maps() async {
+  var url = 'https://www.google.com/maps/place/Universit%C3%A0+degli+Studi+di+Napoli+Federico+II+-+Scuola+Politecnica+e+delle+Scienze+di+Base+-+Complesso+Napoli+Est/@40.836236,14.306482,10z/data=!4m5!3m4!1s0x0:0xcf27f380dd726ab7!8m2!3d40.8362358!4d14.3064821?hl=it-IT';
 
   if (await canLaunch(url)) {
     await launch(
@@ -72,10 +79,4 @@ void web() async {
   } else {
     throw 'There was a problem to open the url: $url';
   }
-}
-
- */
-
-void help() async {
-  await FlutterWebBrowser.openWebPage(url: "https://edu.ieee.org/it-unina/it/infoieee/");
 }

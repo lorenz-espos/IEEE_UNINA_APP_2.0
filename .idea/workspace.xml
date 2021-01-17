@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db29ef66-0f5d-49e5-bd7f-8ca737d36122" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/event.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/instagram.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/web.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/.last_build_id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-    </list>
+    <list default="true" id="db29ef66-0f5d-49e5-bd7f-8ca737d36122" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +80,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610735227602">

@@ -54,8 +54,9 @@ flutter_icons:
 # The following section is specific to Flutter.
 flutter:
   assets:
-    - images/
-    - icon/
+    - assets/icons/
+    - assets/img/
+
 
 
   fonts:
