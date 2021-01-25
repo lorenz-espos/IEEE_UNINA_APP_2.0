@@ -87,6 +87,15 @@ class MyHomePage extends StatelessWidget {
                 );
               },
             ),
+            ListTile(
+              title: Text('Contatti dei membri'),
+              onTap: () {
+                // Update the state of the app
+                // ...
+                // Then close the drawer
+                
+              },
+            ),
           ],
         ),
       ),
