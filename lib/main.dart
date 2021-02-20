@@ -8,6 +8,7 @@ import'AboutUs/bodyAboutUs3.dart';
 import 'bottomSocial.dart';
 import 'size_config.dart';
 import 'AboutUs/sviluppatori.dart';
+import 'AboutUs/contatti.dart';
 
 void main() {
   runApp(MyApp());
@@ -90,12 +91,15 @@ class MyHomePage extends StatelessWidget {
               },
             ),
             ListTile(
-              title: Text('Contatti dei membri'),
+              title: Text('Membri'),
               onTap: () {
                 // Update the state of the app
                 // ...
                 // Then close the drawer
-                
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Contatti()),
+                );
               },
             ),
           ],
