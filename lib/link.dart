@@ -65,8 +65,9 @@ void web() async {
 
 
 void help() async {
-  await FlutterWebBrowser.openWebPage(url: "https://edu.ieee.org/it-unina/it/infoieee/");
+  await FlutterWebBrowser.openWebPage(url: "https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=ca8628a0-1dbe-46fc-a747-dff4b3419106&serviceInstanceID=42459b0b-c568-4c00-850c-52c12f6404e0");
 }
+
 
 void maps() async {
   var url = 'https://www.google.com/maps/place/Universit%C3%A0+degli+Studi+di+Napoli+Federico+II+-+Scuola+Politecnica+e+delle+Scienze+di+Base+-+Complesso+Napoli+Est/@40.836236,14.306482,10z/data=!4m5!3m4!1s0x0:0xcf27f380dd726ab7!8m2!3d40.8362358!4d14.3064821?hl=it-IT';

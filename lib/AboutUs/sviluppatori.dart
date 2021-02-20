@@ -1,8 +1,11 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_app_2/size_config.dart';
+import 'bodySviluppatori.dart';
 
 class Sviluppatori extends StatelessWidget {
+  double defaultSize = SizeConfig.defaultSize;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,15 +27,7 @@ class Sviluppatori extends StatelessWidget {
 
         child: ListView(
           children: <Widget>[
-            Container(
-              child:Column(
-                children: <Widget>[
-                  Text('Lorenzo Esposito'),
-                  Image.asset('assets/img/Lorenzo.jpg'),
-                  Text('Email:spe.lor@virgilio.it'),
-                ],
-              ),
-            ),
+        bodySviluppatori(),
           ],),
 
       ),

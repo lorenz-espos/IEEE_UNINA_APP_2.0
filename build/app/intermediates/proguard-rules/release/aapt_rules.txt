@@ -1,6 +1,11 @@
-# Referenced at /Users/lorenzo/AndroidStudioProjects/flutter_app_2/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:17
+# Referenced at /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:17
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at /Users/lorenzo/AndroidStudioProjects/flutter_app_2/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:22
+# Referenced at /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:22
 -keep class com.example.flutter_app_2.MainActivity { <init>(); }
-# Referenced at /Users/lorenzo/AndroidStudioProjects/flutter_app_2/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:17
+# Referenced at /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:17
 -keep class io.flutter.app.FlutterApplication { <init>(); }
+# Referenced at /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:65
+-keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }
+# Referenced at /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/84bd3266e257a6ed6137b67f2b6129c6/browser-1.2.0/res/layout/browser_actions_context_menu_page.xml:17
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+

@@ -49,7 +49,8 @@ class body extends StatelessWidget {
                   flex: 2,
                   child: Column(
                     textDirection: TextDirection.ltr,
-                    children: [Text("PROVA 2")],
+                    children: [Text(  " Gli Student Branches forniscono un’opportunità per gli IEEE Student Members nell’iniziare a far parte di una rete professionale globale di studenti, ricercatori e tecnici appartenenti ad aree di interesse comune, nonché di esplorare opportunità e tematiche della futura professione. Esistono oltre 3000 Student Branches in oltre 100 Paesi."
+                 , style: new TextStyle(fontWeight: FontWeight.w600, fontSize:10))],
                   ))
             ],
           ),

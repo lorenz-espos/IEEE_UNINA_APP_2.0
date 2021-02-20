@@ -1,8 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+import 'package:flutter_app_2/link.dart';
 import 'AboutUs/headAboudUs.dart';
 import'AboutUs/bodyAboutUs.dart';
+import'AboutUs/bodyAboutUs2.dart';
+import'AboutUs/bodyAboutUs3.dart';
 import 'bottomSocial.dart';
 import 'size_config.dart';
 import 'AboutUs/sviluppatori.dart';
@@ -42,9 +44,9 @@ class MyHomePage extends StatelessWidget {
         ),
         */actions: [
           IconButton(
-              icon: Icon(CupertinoIcons.bell_fill),
-              onPressed: () {},
-            tooltip: 'Notifiche',),
+              icon: Icon(CupertinoIcons.text_bubble_fill),
+              onPressed: () {help();},
+            tooltip: 'Chatbot',),
 
         ],
       ),
@@ -114,8 +116,8 @@ class Home extends StatelessWidget {
         children: <Widget>[
           headAboudUs(),
           bodyAboudUs(/*Parametri*/),
-          bodyAboudUs(/*Parametri */),
-          bodyAboudUs(/*parametri */),
+          bodyAboudUs2(/*Parametri */),
+          bodyAboudUs3(/*parametri */),
           bottomSocial(),
 
         ],
