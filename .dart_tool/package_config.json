@@ -26,6 +26,12 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "carousel_slider",
+      "rootUri": "file:///Users/lorenzo/flutter/.pub-cache/hosted/pub.dartlang.org/carousel_slider-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
       "name": "characters",
       "rootUri": "file:///Users/lorenzo/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.3",
       "packageUri": "lib/",
@@ -231,7 +237,7 @@
     },
     {
       "name": "url_launcher_web",
-      "rootUri": "file:///Users/lorenzo/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1",
+      "rootUri": "file:///Users/lorenzo/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+3",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
@@ -266,7 +272,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-02-20T11:46:57.348656Z",
+  "generated": "2021-04-29T19:38:02.517409Z",
   "generator": "pub",
   "generatorVersion": "2.10.4"
 }

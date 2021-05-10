@@ -1,14 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app_2/AboutUs/slider.dart';
 import 'package:flutter_app_2/link.dart';
 import 'AboutUs/headAboudUs.dart';
-import'AboutUs/bodyAboutUs.dart';
-import'AboutUs/bodyAboutUs2.dart';
-import'AboutUs/bodyAboutUs3.dart';
 import 'bottomSocial.dart';
 import 'size_config.dart';
 import 'AboutUs/sviluppatori.dart';
 import 'AboutUs/contatti.dart';
+import 'AboutUs/slider.dart';
 
 void main() {
   runApp(MyApp());
@@ -119,10 +118,9 @@ class Home extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           headAboudUs(),
-          bodyAboudUs(/*Parametri*/),
-          bodyAboudUs2(/*Parametri */),
-          bodyAboudUs3(/*parametri */),
-          bottomSocial(),
+       slider(),
+
+        bottomSocial(),
 
         ],
       ),
