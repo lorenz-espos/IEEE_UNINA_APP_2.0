@@ -1,4 +1,4 @@
-#Mon May 10 19:13:23 CEST 2021
+#Wed May 12 14:11:26 CEST 2021
 base.0=/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
