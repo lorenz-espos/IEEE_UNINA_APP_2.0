@@ -16,7 +16,7 @@ class headAboudUs extends StatelessWidget {
         ),
         Container(
           padding: EdgeInsets.only(top: 15),
-          child: Text("ABOUT US",
+          child: Text("HOME",
               style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
         )
       ],
