@@ -24,7 +24,7 @@ class bottomSocial extends StatelessWidget {
                       IconButton(
                           icon: SvgPicture.asset(
                               'assets/icons/facebook.svg', // ICONA FACEBOOK
-                              width: 35, // Larghezza icone
+                              width: 35, // Larghezza icona
                               height: 35), // Altezza icona
                           onPressed: () {
                             facebook();
@@ -36,7 +36,7 @@ class bottomSocial extends StatelessWidget {
                       IconButton(
                           icon: SvgPicture.asset(
                               'assets/icons/instagram.svg', // ICONA INSTAGRAM
-                              width: 35, // Larghezza icone
+                              width: 35, // Larghezza icona
                               height: 35), // Altezza icona
                           onPressed: () {
                             instagram();
@@ -48,7 +48,7 @@ class bottomSocial extends StatelessWidget {
                       IconButton(
                           icon: SvgPicture.asset(
                               'assets/icons/google-maps.svg', // ICONA GOOGLE MAPS
-                              width: 35, // Larghezza icone
+                              width: 35, // Larghezza icona
                               height: 35), // Altezza icona
                           onPressed: () {
                             maps();
@@ -60,7 +60,7 @@ class bottomSocial extends StatelessWidget {
                       IconButton(
                           icon: SvgPicture.asset(
                               'assets/icons/chrome.svg', // ICONA GOOGLE CHROME
-                              width: 35, // Larghezza icone
+                              width: 35, // Larghezza icona
                               height: 35), // Altezza icona
                           onPressed: () {
                             web();

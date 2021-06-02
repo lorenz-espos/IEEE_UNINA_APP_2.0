@@ -55,12 +55,11 @@ class MyHomePage extends StatelessWidget {
       bottomNavigationBar: BottomNavigationBar(
         items: [
           const BottomNavigationBarItem(
-              icon: Icon(CupertinoIcons.home), title: Text('Home')),
+              icon: Icon(CupertinoIcons.home), label: 'Home'),  // TODO: CAMBIAMENTO TITLE--> LABEL
           const BottomNavigationBarItem(
-              icon: Icon(CupertinoIcons.lightbulb), title: Text('Progetti')),
+              icon: Icon(CupertinoIcons.lightbulb), label: 'Project'), // TODO: CAMBIAMENTO TITLE--> LABEL (e cambiato il nome in Project)
           const BottomNavigationBarItem(
-              icon: Icon(CupertinoIcons.person_badge_plus),
-              title: Text('Join Us')),
+              icon: Icon(CupertinoIcons.person_badge_plus), label: 'Join Us'), // TODO: CAMBIAMENTO TITLE--> LABEL
         ],
       ),
     );
@@ -77,7 +76,7 @@ class Home extends StatelessWidget {
         children: <Widget>[
           headAboudUs(),
           slider(),
-          articoli(),
+          Articoli(),     // TODO: AGGIORNATO IL NOME CON LETTERA MAIUSCOLA PER UNIFORMARE (formalità) --> da fare anche alle altre classi
         ],
       ),
     );
