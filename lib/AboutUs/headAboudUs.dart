@@ -2,6 +2,9 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class headAboudUs extends StatelessWidget {
+  headAboudUs(this.titolo);
+
+  final String titolo;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -16,7 +19,7 @@ class headAboudUs extends StatelessWidget {
         ),
         Container(
           padding: EdgeInsets.only(top: 15),
-          child: Text("HOME",
+          child: Text(titolo,
               style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
         )
       ],

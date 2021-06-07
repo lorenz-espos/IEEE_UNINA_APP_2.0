@@ -17,7 +17,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
-  @override
+  //@override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'IEEE Demo',
@@ -31,10 +31,24 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyHomePage extends StatelessWidget {
+class MyHomePage extends StatefulWidget {
   @override
+  MyHomePageState createState() => MyHomePageState();
+}
+
+class MyHomePageState extends State<MyHomePage> {
+  @override
+  int index = 0;
+  List<Widget> pages = [
+    Home(),
+    Sviluppatori(),
+    Contatti()
+  ]; //Qui vanno le classi delle pagine principali da far uscire quando si passa nelle nuove sezioni della tab bar
+  // P.S Al momento le pagine sono messe a caso per mostrare il funzionamento della tab bar
+  Widget activePage = Home(); //Setup iniziale della pagina attiva
   Widget build(BuildContext context) {
     SizeConfig().init(context);
+    activePage = pages[index];
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
@@ -51,16 +65,38 @@ class MyHomePage extends StatelessWidget {
           ),
         ],
       ),
-      body: Home(),
+      body:
+          activePage, //activePage contiene la pagina attualmente attiva, per costruire le altre pagine prendere come riferimento la home
       bottomNavigationBar: BottomNavigationBar(
+        currentIndex: index,
         items: [
           const BottomNavigationBarItem(
-              icon: Icon(CupertinoIcons.home), label: 'Home'),  // TODO: CAMBIAMENTO TITLE--> LABEL
+              icon: Icon(CupertinoIcons.home),
+              label: 'Home'), // TODO: CAMBIAMENTO TITLE--> LABEL
+
           const BottomNavigationBarItem(
-              icon: Icon(CupertinoIcons.lightbulb), label: 'Project'), // TODO: CAMBIAMENTO TITLE--> LABEL (e cambiato il nome in Project)
+              icon: Icon(CupertinoIcons.lightbulb),
+              label:
+                  'Project'), // TODO: CAMBIAMENTO TITLE--> LABEL (e cambiato il nome in Project)
           const BottomNavigationBarItem(
-              icon: Icon(CupertinoIcons.person_badge_plus), label: 'Join Us'), // TODO: CAMBIAMENTO TITLE--> LABEL
+              icon: Icon(CupertinoIcons.person_badge_plus),
+              label: 'Join Us'), // TODO: CAMBIAMENTO TITLE--> LABEL
         ],
+        onTap: (page) {
+          setState(() {
+            switch (page) {
+              case 0:
+                index = 0;
+                break;
+              case 1:
+                index = 1;
+                break;
+              case 2:
+                index = 2;
+                break;
+            }
+          });
+        },
       ),
     );
   }
@@ -74,9 +110,9 @@ class Home extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          headAboudUs(),
+          headAboudUs("HOME"),
           slider(),
-          Articoli(),     // TODO: AGGIORNATO IL NOME CON LETTERA MAIUSCOLA PER UNIFORMARE (formalità) --> da fare anche alle altre classi
+          Articoli(), // TODO: AGGIORNATO IL NOME CON LETTERA MAIUSCOLA PER UNIFORMARE (formalità) --> da fare anche alle altre classi
         ],
       ),
     );
