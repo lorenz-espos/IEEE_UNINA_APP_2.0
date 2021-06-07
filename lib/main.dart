@@ -15,10 +15,12 @@ void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+class MyApp extends StatefulWidget {
   @override
-  Widget build(BuildContext context) {
+  MyHomePage createState() => MyHomePage();
+  // This widget is the root of your application.
+  //@override
+  /*Widget build(BuildContext context) {
     return MaterialApp(
       title: 'IEEE Demo',
       debugShowCheckedModeBanner: false,
@@ -29,10 +31,12 @@ class MyApp extends StatelessWidget {
       home: MyHomePage(),
     );
   }
+  */
 }
 
-class MyHomePage extends StatelessWidget {
+class MyHomePage extends State<MyApp> {
   @override
+  int index = 0;
   Widget build(BuildContext context) {
     SizeConfig().init(context);
     return Scaffold(
@@ -53,14 +57,35 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Home(),
       bottomNavigationBar: BottomNavigationBar(
+        currentIndex: index,
         items: [
           const BottomNavigationBarItem(
-              icon: Icon(CupertinoIcons.home), label: 'Home'),  // TODO: CAMBIAMENTO TITLE--> LABEL
+              icon: Icon(CupertinoIcons.home),
+              label: 'Home'), // TODO: CAMBIAMENTO TITLE--> LABEL
+
           const BottomNavigationBarItem(
-              icon: Icon(CupertinoIcons.lightbulb), label: 'Project'), // TODO: CAMBIAMENTO TITLE--> LABEL (e cambiato il nome in Project)
+              icon: Icon(CupertinoIcons.lightbulb),
+              label:
+                  'Project'), // TODO: CAMBIAMENTO TITLE--> LABEL (e cambiato il nome in Project)
           const BottomNavigationBarItem(
-              icon: Icon(CupertinoIcons.person_badge_plus), label: 'Join Us'), // TODO: CAMBIAMENTO TITLE--> LABEL
+              icon: Icon(CupertinoIcons.person_badge_plus),
+              label: 'Join Us'), // TODO: CAMBIAMENTO TITLE--> LABEL
         ],
+        onTap: (page) {
+          setState(() {
+            switch (page) {
+              case 0:
+                index = 0;
+                break;
+              case 1:
+                index = 1;
+                break;
+              case 2:
+                index = 2;
+                break;
+            }
+          });
+        },
       ),
     );
   }
@@ -76,7 +101,7 @@ class Home extends StatelessWidget {
         children: <Widget>[
           headAboudUs(),
           slider(),
-          Articoli(),     // TODO: AGGIORNATO IL NOME CON LETTERA MAIUSCOLA PER UNIFORMARE (formalità) --> da fare anche alle altre classi
+          Articoli(), // TODO: AGGIORNATO IL NOME CON LETTERA MAIUSCOLA PER UNIFORMARE (formalità) --> da fare anche alle altre classi
         ],
       ),
     );
