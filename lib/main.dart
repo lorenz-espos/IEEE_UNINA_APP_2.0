@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_2/AboutUs/articoli.dart';
 import 'package:flutter_app_2/AboutUs/slider.dart';
+import 'package:flutter_app_2/JoinUs/joinUs.dart';
 import 'package:flutter_app_2/link.dart';
 import 'AboutUs/headAboudUs.dart';
 import 'bottomSocial.dart';
@@ -10,6 +11,8 @@ import 'AboutUs/sviluppatori.dart';
 import 'AboutUs/contatti.dart';
 import 'AboutUs/slider.dart';
 import 'AboutUs/articoli.dart';
+import 'JoinUs/joinUs.dart';
+import 'Project/project.dart';
 
 void main() {
   runApp(MyApp());
@@ -41,8 +44,8 @@ class MyHomePageState extends State<MyHomePage> {
   int index = 0;
   List<Widget> pages = [
     Home(),
-    Sviluppatori(),
-    Contatti()
+    Project(),
+    JoinUs()
   ]; //Qui vanno le classi delle pagine principali da far uscire quando si passa nelle nuove sezioni della tab bar
   // P.S Al momento le pagine sono messe a caso per mostrare il funzionamento della tab bar
   Widget activePage = Home(); //Setup iniziale della pagina attiva
