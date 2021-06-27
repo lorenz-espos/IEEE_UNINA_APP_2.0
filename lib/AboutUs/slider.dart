@@ -13,6 +13,13 @@ class slider extends StatelessWidget {
               Container(
                 margin: EdgeInsets.all(6.0),
                 decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      blurRadius: 4.5,
+                      color: Colors.black,
+                      offset: Offset(1.0, 1.0),
+                    ),
+                  ],
                   borderRadius: BorderRadius.circular(8.0),
                   image: DecorationImage(
                     image: AssetImage('assets/img/SB1.jpg'),
@@ -25,6 +32,13 @@ class slider extends StatelessWidget {
               Container(
                 margin: EdgeInsets.all(6.0),
                 decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      blurRadius: 4.5,
+                      color: Colors.black,
+                      offset: Offset(1.0, 1.0),
+                    ),
+                  ],
                   borderRadius: BorderRadius.circular(8.0),
                   image: DecorationImage(
                     image: AssetImage('assets/img/SB2.jpg'),
@@ -36,6 +50,13 @@ class slider extends StatelessWidget {
               Container(
                 margin: EdgeInsets.all(6.0),
                 decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      blurRadius: 4.5,
+                      color: Colors.black,
+                      offset: Offset(1.0, 1.0),
+                    ),
+                  ],
                   borderRadius: BorderRadius.circular(8.0),
                   image: DecorationImage(
                     image: AssetImage('assets/img/SB3.jpg'),

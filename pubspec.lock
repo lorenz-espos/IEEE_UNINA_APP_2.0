@@ -21,7 +21,7 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.5.0"
+    version: "2.6.1"
   boolean_selector:
     dependency: transitive
     description:
@@ -121,6 +121,34 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_wordpress:
+    dependency: "direct main"
+    description:
+      name: flutter_wordpress
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.1"
+  html_character_entities:
+    dependency: "direct main"
+    description:
+      name: html_character_entities
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0+1"
+  http:
+    dependency: transitive
+    description:
+      name: http
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.12.2"
+  http_parser:
+    dependency: transitive
+    description:
+      name: http_parser
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.1.4"
   image:
     dependency: transitive
     description:
@@ -170,6 +198,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.1"
+  pedantic:
+    dependency: transitive
+    description:
+      name: pedantic
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.11.1"
   petitparser:
     dependency: transitive
     description:
@@ -195,7 +230,7 @@ packages:
       name: source_span
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.8.0"
+    version: "1.8.1"
   stack_trace:
     dependency: transitive
     description:
@@ -230,7 +265,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.19"
+    version: "0.3.0"
   typed_data:
     dependency: transitive
     description:
