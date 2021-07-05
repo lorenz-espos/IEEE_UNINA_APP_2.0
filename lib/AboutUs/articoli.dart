@@ -58,7 +58,7 @@ class GetArticles extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-        height: 250, // Some height
+        height: 180, // Some height
         child: FutureBuilder<List<wp.Post>>(
           //Si occupa di creare la lista di post da mostrare nell'app e far vedere il caricamento fino a download avvenuto
           future: _fetchPosts(),

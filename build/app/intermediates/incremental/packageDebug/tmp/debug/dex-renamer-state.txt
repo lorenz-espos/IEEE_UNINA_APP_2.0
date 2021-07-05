@@ -1,4 +1,4 @@
-#Sun Jun 27 18:51:34 CEST 2021
-base.0=D\:\\IEEE_UNINA_APP_2.0\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
-path.0=classes.dex
+#Mon Jul 05 21:24:20 CEST 2021
+base.0=E\:\\Documenti\\VSCProjects\\flutter\\IEEE_UNINA_APP_2.0\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 renamed.0=classes.dex
+path.0=classes.dex
