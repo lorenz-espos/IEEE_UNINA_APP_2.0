@@ -15,7 +15,7 @@ class Articoli extends StatelessWidget {
       children: <Widget>[
         Container(
             padding:
-                EdgeInsets.only(bottom: 20, left: 16), // TODO: POSIZIONAMENTO
+                EdgeInsets.only(bottom: 5, left: 16), // TODO: POSIZIONAMENTO
             child: Row(children: <Widget>[
               Text("ARTICOLI",
                   style:
@@ -24,7 +24,7 @@ class Articoli extends StatelessWidget {
                   size: 20), // TODO: MODIFICATO GRANDEZZA ICONA
             ])),
         Container(
-          padding: EdgeInsets.only(bottom: 28, left: 0),
+          padding: EdgeInsets.only(bottom: 80, left: 0),
           child: GetArticles(),
         ) //CHIAMATA ALLA FUNZIONE PER LA DISPOSIZIONE DEGLI ARTICOLI
       ],
@@ -62,6 +62,7 @@ class GetArticles extends StatelessWidget {
         child: FutureBuilder<List<wp.Post>>(
           //Si occupa di creare la lista di post da mostrare nell'app e far vedere il caricamento fino a download avvenuto
           future: _fetchPosts(),
+          // ignore: missing_return
           builder: (context, AsyncSnapshot<List<wp.Post>> snapshot) {
             if (snapshot.connectionState == ConnectionState.none) {
               return Container(width: 0.0, height: 0.0);
@@ -102,8 +103,8 @@ class GetArticles extends StatelessWidget {
                                 //OMBRA IN BACKGROUND PER STACCARE DALL'IMMAGINE
                                 Shadow(
                                   blurRadius: 5.0,
-                                  color: Colors.black,
-                                  offset: Offset(2.0, 2.0),
+                                  color: Colors.black.withOpacity(0.8),
+                                  offset: Offset(1.0, 1.0),
                                 ),
                               ],
                             ),
@@ -111,21 +112,21 @@ class GetArticles extends StatelessWidget {
                       decoration: BoxDecoration(
                         boxShadow: [
                           BoxShadow(
-                            blurRadius: 6.0,
-                            color: Colors.black,
-                            offset: Offset(2.0, 2.0),
+                            blurRadius: 5.0,
+                            color: Colors.black.withOpacity(.2),
+                            offset: Offset(3.0, 3.0),
                           ),
                         ],
                         image: DecorationImage(
                           colorFilter: new ColorFilter.mode(
                               //SFUMATURA BIANCA SULL'IMMAGINE PER STACCARLA DAL TITOLO
-                              Colors.black.withOpacity(0.85),
+                              Colors.black.withOpacity(0.90),
                               BlendMode.dstATop),
                           image: NetworkImage(
                               post.featuredMedia.sourceUrl), //IMMAGINE
                           fit: BoxFit.cover,
                         ),
-                        borderRadius: BorderRadius.circular(4), //BORDI
+                        borderRadius: BorderRadius.circular(10), //BORDI
                         color: Colors.transparent,
                       ),
                       padding: EdgeInsets.only(left: 8, right: 8),

@@ -59,7 +59,7 @@ class MyHomePageState extends State<MyHomePage> {
         iconTheme: IconThemeData(color: Colors.black),
         actions: [
           IconButton(
-            icon: Icon(CupertinoIcons.text_bubble_fill, size: 32),
+            icon: Icon(CupertinoIcons.text_bubble, size: 30),
             padding: new EdgeInsets.only(top: 16.0),
             onPressed: () {
               help();
