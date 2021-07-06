@@ -5,17 +5,15 @@ import 'package:flutter_app_2/AboutUs/slider.dart';
 import 'package:flutter_app_2/JoinUs/joinUs.dart';
 import 'package:flutter_app_2/link.dart';
 import 'AboutUs/headAboudUs.dart';
-import 'bottomSocial.dart';
 import 'size_config.dart';
-import 'AboutUs/sviluppatori.dart';
-import 'AboutUs/contatti.dart';
 import 'AboutUs/slider.dart';
 import 'AboutUs/articoli.dart';
 import 'JoinUs/joinUs.dart';
 import 'Project/project.dart';
+import 'loading.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MyApp()); //qui andrà splashscreen quando sarà pronto il caricamento
 }
 
 class MyApp extends StatelessWidget {
@@ -59,7 +57,7 @@ class MyHomePageState extends State<MyHomePage> {
         iconTheme: IconThemeData(color: Colors.black),
         actions: [
           IconButton(
-            icon: Icon(CupertinoIcons.text_bubble, size: 30),
+            icon: Icon(CupertinoIcons.text_bubble_fill, size: 32),
             padding: new EdgeInsets.only(top: 16.0),
             onPressed: () {
               help();
