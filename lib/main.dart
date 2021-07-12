@@ -4,6 +4,7 @@ import 'package:flutter_app_2/AboutUs/articoli.dart';
 import 'package:flutter_app_2/AboutUs/slider.dart';
 import 'package:flutter_app_2/JoinUs/joinUs.dart';
 import 'package:flutter_app_2/link.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'AboutUs/headAboudUs.dart';
 import 'size_config.dart';
 import 'AboutUs/slider.dart';
@@ -57,7 +58,12 @@ class MyHomePageState extends State<MyHomePage> {
         iconTheme: IconThemeData(color: Colors.black),
         actions: [
           IconButton(
-            icon: Icon(CupertinoIcons.text_bubble_fill, size: 32),
+            icon: SvgPicture.asset(
+              'assets/icons/chatbot.svg',
+              height: 24,
+              width: 24,
+              color: Colors.black,
+            ),
             padding: new EdgeInsets.only(top: 16.0),
             onPressed: () {
               help();
@@ -71,16 +77,31 @@ class MyHomePageState extends State<MyHomePage> {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: index,
         items: [
-          const BottomNavigationBarItem(
-              icon: Icon(CupertinoIcons.home),
+          BottomNavigationBarItem(
+              icon: SvgPicture.asset(
+                'assets/icons/home.svg',
+                color: Colors.grey,
+                height: 30,
+                width: 30,
+              ),
               label: 'Home'), // TODO: CAMBIAMENTO TITLE--> LABEL
 
-          const BottomNavigationBarItem(
-              icon: Icon(CupertinoIcons.lightbulb),
+          BottomNavigationBarItem(
+              icon: SvgPicture.asset(
+                'assets/icons/project.svg',
+                color: Colors.grey,
+                height: 30,
+                width: 30,
+              ),
               label:
                   'Project'), // TODO: CAMBIAMENTO TITLE--> LABEL (e cambiato il nome in Project)
-          const BottomNavigationBarItem(
-              icon: Icon(CupertinoIcons.person_badge_plus),
+          BottomNavigationBarItem(
+              icon: SvgPicture.asset(
+                'assets/icons/join.svg',
+                color: Colors.grey,
+                height: 30,
+                width: 30,
+              ),
               label: 'Join Us'), // TODO: CAMBIAMENTO TITLE--> LABEL
         ],
         onTap: (page) {

@@ -6,8 +6,8 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/Users/lorenzo/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_web_browser-0.14.0/android/src/main/AndroidManifest.xml
+8-->C:\Users\CRISCI\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\flutter_web_browser-0.14.0\android\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->/Users/lorenzo/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_web_browser-0.14.0/android/src/main/AndroidManifest.xml
+9-->C:\Users\CRISCI\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\flutter_web_browser-0.14.0\android\src\main\AndroidManifest.xml
 10
 11</manifest>
