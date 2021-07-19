@@ -3,6 +3,6 @@
 3    package="io.flutter.plugins.webviewflutter" >
 4
 5    <uses-sdk android:minSdkVersion="19" />
-5-->/Users/lorenzo/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter-2.0.10/android/src/main/AndroidManifest.xml
+5-->D:\Downloads\flutter_windows_1.20.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\webview_flutter-2.0.10\android\src\main\AndroidManifest.xml
 6
 7</manifest>

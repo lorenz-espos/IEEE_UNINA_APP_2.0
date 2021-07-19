@@ -3,7 +3,28 @@ import 'package:flutter_app_2/main.dart';
 import 'dart:async'; //include il Timer
 import 'package:splashscreen/splashscreen.dart';
 
-class Splash extends StatelessWidget {
+class Splash extends StatefulWidget {
+  @override
+  _SplashState createState() => new _SplashState();
+}
+
+class _SplashState extends State<Splash> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: new SplashScreen(
+          seconds: 3,
+          navigateAfterSeconds: new MyApp(),
+          image: new Image.asset('assets/icons/launch_image.gif'),
+          photoSize: 100.0,
+          backgroundColor: Colors.white,
+          useLoader: false,
+        ));
+  }
+}
+
+/*class Splash extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
@@ -18,7 +39,7 @@ class Splash extends StatelessWidget {
         styleTextUnderTheLoader: new TextStyle(),
         photoSize: 100.0);
   }
-}
+}*/
 /*class Splash extends State<SplashScreen> {
   @override
   void initState() {

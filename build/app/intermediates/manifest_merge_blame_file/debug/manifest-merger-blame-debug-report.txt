@@ -12,8 +12,8 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/debug/AndroidManifest.xml:6:22-64
+14-->D:\IEEE_UNINA_APP_2.0\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->D:\IEEE_UNINA_APP_2.0\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <!--
 16     io.flutter.app.FlutterApplication is an android.app.Application that
 17         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -22,32 +22,32 @@
 20         FlutterApplication and put your custom class here.
 21    -->
 22    <application
-22-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:8:5-47:19
+22-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:8:5-47:19
 23        android:name="io.flutter.app.FlutterApplication"
-23-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:9:9-57
+23-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:9:9-57
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.1.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+24-->[androidx.core:core:1.1.0] C:\Users\peppe\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
-26-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:11:9-43
+26-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:11:9-43
 27        android:label="IEEE Unina" >
-27-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:10:9-35
+27-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:10:9-35
 28        <activity
-28-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:12:9-41:20
+28-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:12:9-41:20
 29            android:name="com.example.flutter_app_2.MainActivity"
-29-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:13:13-41
+29-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:13:13-41
 30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-30-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:17:13-163
+30-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:17:13-163
 31            android:hardwareAccelerated="true"
-31-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:18:13-47
+31-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:18:13-47
 32            android:launchMode="singleTop"
-32-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:15:13-43
+32-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:15:13-43
 33            android:screenOrientation="portrait"
-33-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:14:13-49
+33-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:14:13-49
 34            android:theme="@style/LaunchTheme"
-34-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:16:13-47
+34-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:16:13-47
 35            android:windowSoftInputMode="adjustResize" >
-35-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:19:13-55
+35-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:19:13-55
 36
 37            <!--
 38                 Specifies an Android theme to apply to this Activity as soon as
@@ -56,11 +56,11 @@
 41                 to determine the Window background behind the Flutter UI.
 42            -->
 43            <meta-data
-43-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:24:13-27:17
+43-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:24:13-27:17
 44                android:name="io.flutter.embedding.android.NormalTheme"
-44-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:25:15-70
+44-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:25:15-70
 45                android:resource="@style/NormalTheme" />
-45-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:26:15-52
+45-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:26:15-52
 46            <!--
 47                 Displays an Android View that continues showing the launch screen
 48                 Drawable until Flutter paints its first frame, then this splash
@@ -69,21 +69,21 @@
 51                 Flutter's first frame.
 52            -->
 53            <meta-data
-53-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:33:13-36:17
+53-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:33:13-36:17
 54                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-54-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:34:15-79
+54-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:34:15-79
 55                android:resource="@drawable/launch_background" />
-55-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:35:15-61
+55-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:35:15-61
 56
 57            <intent-filter>
-57-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:37:13-40:29
+57-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:37:13-40:29
 58                <action android:name="android.intent.action.MAIN" />
-58-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:38:17-68
-58-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:38:25-66
+58-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:38:17-68
+58-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:38:25-66
 59
 60                <category android:name="android.intent.category.LAUNCHER" />
-60-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:39:17-76
-60-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:39:27-74
+60-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:39:17-76
+60-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:39:27-74
 61            </intent-filter>
 62        </activity>
 63        <!--
@@ -91,20 +91,20 @@
 65             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 66        -->
 67        <meta-data
-67-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:44:9-46:33
+67-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:44:9-46:33
 68            android:name="flutterEmbedding"
-68-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:45:13-44
+68-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:45:13-44
 69            android:value="2" />
-69-->/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:46:13-30
+69-->D:\IEEE_UNINA_APP_2.0\android\app\src\main\AndroidManifest.xml:46:13-30
 70
 71        <activity
-71-->[:url_launcher] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+71-->[:url_launcher] D:\IEEE_UNINA_APP_2.0\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
 72            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-72-->[:url_launcher] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+72-->[:url_launcher] D:\IEEE_UNINA_APP_2.0\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
 73            android:exported="false"
-73-->[:url_launcher] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+73-->[:url_launcher] D:\IEEE_UNINA_APP_2.0\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
 74            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-74-->[:url_launcher] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+74-->[:url_launcher] D:\IEEE_UNINA_APP_2.0\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
 75    </application>
 76
 77</manifest>

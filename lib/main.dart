@@ -75,21 +75,35 @@ class MyHomePageState extends State<MyHomePage> {
       body:
           activePage, //activePage contiene la pagina attualmente attiva, per costruire le altre pagine prendere come riferimento la home
       bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Colors.blue[900],
         currentIndex: index,
         items: [
           BottomNavigationBarItem(
-              icon: SvgPicture.asset(
-                'assets/icons/home.svg',
-                color: Colors.grey,
-                height: 30,
-                width: 30,
-              ),
-              label: 'Home'), // TODO: CAMBIAMENTO TITLE--> LABEL
+            icon: SvgPicture.asset(
+              'assets/icons/home.svg',
+              color: Colors.grey,
+              height: 25,
+              width: 25,
+            ),
+            activeIcon: SvgPicture.asset(
+              'assets/icons/home.svg',
+              color: Colors.blue[900],
+              height: 30,
+              width: 30,
+            ),
+            label: 'Home',
+          ), // TODO: CAMBIAMENTO TITLE--> LABEL
 
           BottomNavigationBarItem(
               icon: SvgPicture.asset(
                 'assets/icons/project.svg',
                 color: Colors.grey,
+                height: 25,
+                width: 25,
+              ),
+              activeIcon: SvgPicture.asset(
+                'assets/icons/project.svg',
+                color: Colors.blue[900],
                 height: 30,
                 width: 30,
               ),
@@ -99,6 +113,12 @@ class MyHomePageState extends State<MyHomePage> {
               icon: SvgPicture.asset(
                 'assets/icons/join.svg',
                 color: Colors.grey,
+                height: 25,
+                width: 25,
+              ),
+              activeIcon: SvgPicture.asset(
+                'assets/icons/join.svg',
+                color: Colors.blue[900],
                 height: 30,
                 width: 30,
               ),
