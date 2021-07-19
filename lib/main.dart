@@ -14,7 +14,7 @@ import 'Project/project.dart';
 import 'loading.dart';
 
 void main() {
-  runApp(MyApp()); //qui andrà splashscreen quando sarà pronto il caricamento
+  runApp(Splash()); //qui andrà splashscreen quando sarà pronto il caricamento
 }
 
 class MyApp extends StatelessWidget {
