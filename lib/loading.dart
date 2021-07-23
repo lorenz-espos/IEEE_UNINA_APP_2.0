@@ -14,11 +14,11 @@ class _SplashState extends State<Splash> {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: new SplashScreen(
-          seconds: 3,
+          seconds: 2,
           navigateAfterSeconds: new MyApp(),
           image: new Image.asset('assets/icons/launch_image.gif'),
           photoSize: 100.0,
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.white38,
           useLoader: false,
         ));
   }
