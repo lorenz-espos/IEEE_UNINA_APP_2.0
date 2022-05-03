@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/flutter_web_browser/intermediates/res/merged/release/layout/browser_actions_context_menu_page.xml",
+        "source": "/Users/lorenzo/.gradle/caches/transforms-2/files-2.1/84bd3266e257a6ed6137b67f2b6129c6/browser-1.2.0/res/layout/browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/flutter_web_browser/intermediates/res/merged/release/layout/browser_actions_context_menu_row.xml",
+        "source": "/Users/lorenzo/.gradle/caches/transforms-2/files-2.1/84bd3266e257a6ed6137b67f2b6129c6/browser-1.2.0/res/layout/browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/flutter_web_browser/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/lorenzo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/flutter_web_browser/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/lorenzo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/flutter_web_browser/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/lorenzo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/flutter_web_browser/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/lorenzo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/flutter_web_browser/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/lorenzo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/flutter_web_browser/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/lorenzo/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/layout/notification_action_tombstone.xml"
+    }
+]

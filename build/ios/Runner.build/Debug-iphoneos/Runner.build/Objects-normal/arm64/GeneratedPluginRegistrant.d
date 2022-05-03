@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/ios/Runner/GeneratedPluginRegistrant.m \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/ios/Runner/GeneratedPluginRegistrant.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Modules/module.modulemap \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterViewController.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterEngineGroup.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterEngine.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterDartProject.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterCallbackCache.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterTexture.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterPlatformViews.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterCodecs.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterChannels.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterBinaryMessenger.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterPlugin.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterMacros.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/FlutterAppDelegate.h \
+  /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/ios/Debug-iphoneos/Flutter.framework/Headers/Flutter.h

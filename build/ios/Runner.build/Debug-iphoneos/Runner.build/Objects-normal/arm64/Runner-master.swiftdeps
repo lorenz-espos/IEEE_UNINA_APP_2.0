@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "bfb37f7b27b533ebf39f6069ffdbd2df451df3c77ea17aebecd62d010f8f0bd7"
+build_start_time: [1648834810, 200731992]
+build_end_time: [1648834814, 604496002]
+inputs:
+  "/Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/ios/Runner/AppDelegate.swift": [1626122708, 57906627]
