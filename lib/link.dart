@@ -14,6 +14,45 @@ Future<void> instagram() async {
   }
 }
 
+Future<void> lorenzo() async {
+  var url = 'https://www.linkedin.com/in/lorenzo-esposito-4a1671194/';
+
+  if (await canLaunch(url)) {
+    await launch(
+      url,
+      universalLinksOnly: true,
+    );
+  } else {
+    throw 'There was a problem to open the url: $url';
+  }
+}
+
+Future<void> luigi() async {
+  var url = 'https://www.linkedin.com/in/luigicrisci/';
+
+  if (await canLaunch(url)) {
+    await launch(
+      url,
+      universalLinksOnly: true,
+    );
+  } else {
+    throw 'There was a problem to open the url: $url';
+  }
+}
+
+Future<void> emanuele() async {
+  var url = 'https://www.linkedin.com/in/emanuele-liccardi/';
+
+  if (await canLaunch(url)) {
+    await launch(
+      url,
+      universalLinksOnly: true,
+    );
+  } else {
+    throw 'There was a problem to open the url: $url';
+  }
+}
+
 /*
 Future<void> facebook() async {
   var url = 'https://www.facebook.com/ieee.unina/';

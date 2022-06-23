@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_2/main.dart';
-import 'dart:async'; //include il Timer
+//import 'dart:async'; //include il Timer
 import 'package:splashscreen/splashscreen.dart';
 
 class Splash extends StatefulWidget {

@@ -12,6 +12,7 @@ import 'AboutUs/articoli.dart';
 import 'JoinUs/joinUs.dart';
 import 'Project/project.dart';
 import 'loading.dart';
+import 'AboutUs/sviluppatori.dart';
 
 void main() {
   runApp(Splash()); //qui andrà splashscreen quando sarà pronto il caricamento
@@ -56,6 +57,21 @@ class MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.white,
         elevation: 0,
         iconTheme: IconThemeData(color: Colors.black),
+        leading: IconButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => Sviluppatori()),
+            );
+          },
+          tooltip: 'Sviluppatori',
+          icon: Image.asset(
+            'assets/icons/developers.png',
+            height: 32,
+            width: 32,
+          ),
+          padding: new EdgeInsets.only(top: 17.0),
+        ),
         actions: [
           IconButton(
             icon: SvgPicture.asset(

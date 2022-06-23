@@ -5,9 +5,15 @@ INJECTED from /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/ap
 INJECTED from /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:1:1-48:12
 INJECTED from /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:1:1-48:12
 MERGED from /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:video_player] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [:flutter_web_browser] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/flutter_web_browser/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:wakelock] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:webview_flutter] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/5ec2d15f8e55d3d51e21875289b9956a/exoplayer-hls-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/b445adacaf7b8f7d807b15da88052b58/exoplayer-dash-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/f313cb14285f5c280c3ebebe5ac0cdd9/exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/09f162c30bd34043613fff612ffb52d8/exoplayer-core-2.14.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.browser:browser:1.2.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/84bd3266e257a6ed6137b67f2b6129c6/browser-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.webkit:webkit:1.0.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/e6b1c804849fbf3a96135de6255bcce0/webkit-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -20,6 +26,8 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/lorenzo/.gradle/
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/b7829aa6b2323882f6fc347e65c3bd64/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/757ce77640433dbfa7cd71cf7c51f1c5/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/2ca8bc49d3a28fb6fa3bddf429b143ba/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -105,12 +113,24 @@ uses-sdk
 INJECTED from /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/android/app/src/main/AndroidManifest.xml
+MERGED from [:video_player] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_web_browser] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/flutter_web_browser/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:flutter_web_browser] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/flutter_web_browser/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:wakelock] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:webview_flutter] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:webview_flutter] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/5ec2d15f8e55d3d51e21875289b9956a/exoplayer-hls-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/5ec2d15f8e55d3d51e21875289b9956a/exoplayer-hls-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/b445adacaf7b8f7d807b15da88052b58/exoplayer-dash-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/b445adacaf7b8f7d807b15da88052b58/exoplayer-dash-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/f313cb14285f5c280c3ebebe5ac0cdd9/exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/f313cb14285f5c280c3ebebe5ac0cdd9/exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/09f162c30bd34043613fff612ffb52d8/exoplayer-core-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/09f162c30bd34043613fff612ffb52d8/exoplayer-core-2.14.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.2.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/84bd3266e257a6ed6137b67f2b6129c6/browser-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.2.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/84bd3266e257a6ed6137b67f2b6129c6/browser-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.webkit:webkit:1.0.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/e6b1c804849fbf3a96135de6255bcce0/webkit-1.0.0/AndroidManifest.xml:20:5-44
@@ -135,6 +155,10 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lorenzo/.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/b7829aa6b2323882f6fc347e65c3bd64/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/b7829aa6b2323882f6fc347e65c3bd64/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/757ce77640433dbfa7cd71cf7c51f1c5/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/757ce77640433dbfa7cd71cf7c51f1c5/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/2ca8bc49d3a28fb6fa3bddf429b143ba/interpolator-1.0.0/AndroidManifest.xml:20:5-44
@@ -163,3 +187,9 @@ ADDED from [:url_launcher] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2
 		ADDED from [:url_launcher] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
 	android:name
 		ADDED from [:url_launcher] /Users/lorenzo/AndroidStudioProjects/IEEE_UNINA_APP_2.0/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/09f162c30bd34043613fff612ffb52d8/exoplayer-core-2.14.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/757ce77640433dbfa7cd71cf7c51f1c5/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/757ce77640433dbfa7cd71cf7c51f1c5/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/lorenzo/.gradle/caches/transforms-2/files-2.1/09f162c30bd34043613fff612ffb52d8/exoplayer-core-2.14.1/AndroidManifest.xml:24:22-76

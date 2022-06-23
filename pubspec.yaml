@@ -35,6 +35,8 @@ dependencies:
   flutter_wordpress: ^0.2.0
   html_character_entities: ^1.0.0+1
   webview_flutter: ^2.0.10
+  flutter_html: ^2.2.1
+  webview_flutter_plus: ^0.2.3
 
 
 dev_dependencies:
